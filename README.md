@@ -18,7 +18,7 @@ TorHidden - A simple proxy tool.
 - [Author](#author)
 - [License](#license)
 
-## Installation
+## Installation For Windows
 
 1. Clone the repository
     ```
