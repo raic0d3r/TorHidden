@@ -38,7 +38,10 @@ TorHidden - A simple proxy tool.
     ```
     echo( > C:\Tor\torrc
     ```
-    
+    To test if the service with the settings file will start correctly:
+    ```
+    C:\Tor\tor.exe -f "C:\Tor\torrc"
+    ```
 5. Now install the Tor service, which will read the settings from the C:\Tor\torrc file:
     ```
     C:\Tor\tor.exe --service install -options -f "C:\Tor\torrc"
